@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "jaro", sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(23, 194, 126);
+    justify-content: space-around;
+    padding: 20px 0;
+    color: aliceblue;
+}
+
+
+nav .logo {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+
+}
+
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    color: black;
+}
