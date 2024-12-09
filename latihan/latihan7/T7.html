@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persib Casual</title>
+    <link
+    href="https://fonts.goggleapis.com/css2?family=Oswald:wght@200;400&display=swap"
+    rel="stylesheet"
+    >
+    <link rel="stylesheet" href="T7.css">
+</head>
+<body>
+<div class="container">
+    
+    <header class="header">
+        <div class="hero">
+          <h2 class="heading">Bandung Pride</h2>
+          <p class="sub heading">Jacket & Jersey</p>
+        </div>
+        <div class="feature1">
+            <h4 class="price">IDR 250K</h4>
+            <p class="item">Jacket</p>
+        </div>
+        <div class="feature2">
+            <h4 class="price">IDR 150K</h4>
+            <P class="item">Jersey</P>
+        </div>
+    </header>
+    <nav class="menu">
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="brand">
+            <h1> Casual Ultras</h1>
+        </div>
+        <ul class="menu-list">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <section class="services">
+        <div class="service">
+            <div class="icon">
+                <h3>Peringatan!</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod rerum maxime iusto harum! Rem, fugit!</p>
+            </div>
+        </div>
+    
+        <div class="service">
+            <div class="icon">
+                <h3>Update</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod rerum maxime iusto harum! Rem, fugit!</p>
+            </div>
+        </div>
+    
+        <div class="service">
+            <div class="icon">
+                <h3>Coming Soon</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod rerum maxime iusto harum! Rem, fugit!</p>
+            </div>
+        </div>
+    
+        <div class="service">
+            <div class="icon">
+                <h3>Bantuan</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod rerum maxime iusto harum! Rem, fugit!</p>
+            </div>
+        </div>
+        
+    </section>
+</div>
+<script>
+const menuToggle=document.querySelector('.menu-toggle input');
+const nav=document.querySelector('nav ul');
+menuToggle.addEventListener('click',function(){
+nav.classList.toggle('slide');
+});
+</script>
+</body>
+</html>
